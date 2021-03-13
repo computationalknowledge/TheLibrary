@@ -1,0 +1,43 @@
+public class MainApplication{
+	/*
+		Requirements: WHAT to do?
+		1. Create one Borrower and one Book and create a mechanism for the
+		   Borrower to check out the Boook
+
+		Algorithm: HOW to get it done?
+		HOW to Create a Borrower
+
+		Designing our Classes:
+		What knowledge does each class need to have to tell its part of the story?
+	*/
+	public static void main(String[] args){
+		System.out.println("starting program...");
+		ApplicationRunner ar = new ApplicationRunner();
+		System.out.println("ending program...");
+	}
+
+}
+
+class ApplicationRunner{
+	// here is where all the Work of running the 
+	// Library is going to happen
+	// We do the Method Choreography here
+
+}
+
+class Library{
+
+}
+
+class Book{
+	String title;
+	String author;
+	String category;
+}
+
+class Borrower{
+	String borrowerName;
+	String libraryCardNumber;
+	BooksCheckedOut
+}
+
